@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: #04a6eb;
+    color: #fdffff;
+    width: 500px;
+    margin: 0 auto;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#user-name{
+    height: 30px;
+    background-color: #fdffff;
+    border-style: none;
+    width: 350px;
+}
+
+#assessment{
+    background-color: #337ab7;
+    border-style: none;
+    padding: 5px 20px;
+    color: #fdffff;
+}
